@@ -1,0 +1,19 @@
+{
+    "name": "vitaly-alexandrovich/proxy-rotator",
+    "authors": [
+        {
+            "name": "Vitaly",
+            "email": "personal.vitaly@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vitaly-alexandrovich/modeler": "dev-master",
+        "vitaly-alexandrovich/http-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProxyRotator\\": "src/"
+        }
+    }
+}
